@@ -182,6 +182,7 @@
   }
   .tag.green { background: rgba(0,212,170,0.1); color: var(--accent2); border-color: rgba(0,212,170,0.2); }
   .tag.pink { background: rgba(255,107,157,0.1); color: var(--accent3); border-color: rgba(255,107,157,0.2); }
+  .tag.yellow { background: rgba(234, 179, 8, 0.1); color: #eab308; border-color: rgba(234, 179, 8, 0.2);}
 
   .timeline { position: relative; padding-left: 2rem; }
   .timeline::before {
@@ -441,21 +442,21 @@
     <p class="section-desc reveal">End-to-end data projects spanning business intelligence, machine learning, and institutional analytics.</p>
     <div class="projects-grid">
 
-      <div class="project-card reveal" style="animation-delay:0.1s">
+      <div class="project-card reveal" onclick="window.open('https://github.com/dverma0103/Ecommerce_Analytics_Project')" style="cursor: pointer;">
         <div class="project-icon">🛒</div>
         <div class="project-title">E-Commerce Performance Analytics</div>
         <div class="project-desc">Analyzed 100K+ records across sales, inventory, delivery, marketing, and feedback. Built interactive dashboards tracking ₹11M+ revenue, customer segmentation, delivery efficiency, and marketing ROAS (1.97).</div>
         <div class="project-stack">
-          <span class="tag">SQL</span><span class="tag green">Power BI</span><span class="tag">Data Modeling</span><span class="tag pink">EDA</span>
+          <span class="tag">SQL</span><span class="tag yellow">Power BI</span><span class="tag">Data Modeling</span><span class="tag pink">EDA</span>
         </div>
       </div>
 
-      <div class="project-card reveal" style="animation-delay:0.2s">
+      <div class="project-card reveal" onclick="window.open('https://github.com/dverma0103/Loan_Default_Prediction')" style="cursor: pointer;">
         <div class="project-icon">🏦</div>
         <div class="project-title">Loan Default Prediction</div>
         <div class="project-desc">Supervised ML classification model to predict loan approval/default from applicant financial data. Applied SMOTE for class imbalance — achieved AUC-ROC of 0.91.</div>
         <div class="project-stack">
-          <span class="tag pink">Scikit-learn</span><span class="tag pink">SMOTE</span><span class="tag pink">Python</span><span class="tag">AUC 0.91</span>
+          <span class="tag pink">Scikit-learn</span><span class="tag pink">SMOTE</span><span class="tag pink">Python</span><span class="tag pink">Streamlit</span><span class="tag">AUC 0.91</span>
         </div>
       </div>
 
@@ -464,7 +465,25 @@
         <div class="project-title">SGT Institutional Dashboard</div>
         <div class="project-desc">Comprehensive Power BI dashboard tracking student enrolment, faculty strength, programme distribution (UG/PG/PhD/Diploma), admissions, and pass-out trends across all departments.</div>
         <div class="project-stack">
-          <span class="tag green">Power BI</span><span class="tag green">DAX</span><span class="tag">Institutional KPIs</span>
+          <span class="tag yellow">Power BI</span><span class="tag yellow">DAX</span><span class="tag green">Excel</span><span class="tag">Institutional KPIs</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" onclick="window.open('https://github.com/dverma0103/MOR-Social-Media-Followers')" style="cursor: pointer;">
+        <div class="project-icon">🐦</div>
+        <div class="project-title">MOR Social Media Follower Dashboard</div>
+        <div class="project-desc">A Power BI dashboard visualizing social media follower trends and performance for MOR. It provides insights into follower growth, platform engagement, and overall brand presence across various social media channels.</div>
+        <div class="project-stack">
+          <span class="tag yellow">Power BI</span><span class="tag yellow">DAX</span><span class="tag green">Excel</span><span class="tag">Social-Media KPIs</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" onclick="window.open('https://github.com/dverma0103/DiaVision-Deep-Learning-and-ML-Driven-Health-Predictions-with-Secure-User-Access')" style="cursor: pointer;">
+        <div class="project-icon">🩺</div>
+        <div class="project-title">DiaVision - Healthcare Prediction System</div>
+        <div class="project-desc">A Power BI dashboard visualizing social media follower trends and performance for MOR. It provides insights into follower growth, platform engagement, and overall brand presence across various social media channels.</div>
+        <div class="project-stack">
+          <span class="tag pink">Python</span><span class="tag pink">FastAPI</span><span class="tag pink">Jupyter</span><span class ="tag pink">SQLAlchemy</span><span class="tag pink">Scikit-Learn</span><span class="tag">Machine Learning</span><span class="tag">CNN</span><span class="tag">Deep Learning</span>
         </div>
       </div>
 
@@ -476,31 +495,74 @@
 <section id="about">
   <div class="section-inner">
     <p class="section-label reveal">Background</p>
-    <h2 class="section-title reveal">Education & Certifications</h2>
+    <h2 class="section-title reveal">Education 🎓</h2>
     <div class="edu-cert-grid">
 
       <div class="edu-card reveal">
-        <div class="edu-icon">🎓</div>
         <div class="edu-degree">Master of Data Science (MDS)</div>
         <div class="edu-uni">SGT University, Gurugram</div>
         <div class="edu-year">2023 – 2025</div>
-        <div style="margin-top:0.75rem; font-size:0.78rem; color: var(--text2);">Statistical Analysis · ML · Database Mgmt · Data Viz · Deep Learning · Big Data</div>
+        <div style="margin-top:0.75rem; font-size:0.78rem; color: var(--text2);">Statistical Analysis · ML · Database Management · Data Vizualisation · Deep Learning · Big Data</div>
       </div>
 
-      <div class="edu-card reveal" style="animation-delay:0.15s">
+      <div class="edu-card reveal">
+        <div class="edu-degree">Bachelor of Science (Non-Medical)</div>
+        <div class="edu-uni">SGT University, Gurugram</div>
+        <div class="edu-year">2019 – 2022</div>
+        <div style="margin-top:0.75rem; font-size:0.78rem; color: var(--text2);">Mathematics · Physics · Chemistry · Mechanics · Differential Calculus · Enviourmental Science · Real & Complex Analysis · Linear Algebra · Probability · Statistics</div>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-degree">Higher Secondary</div>
+        <div class="edu-uni">Ram Chandra Public School, Delhi</div>
+        <div class="edu-year">2017 – 2018</div>
+        <div style="margin-top:0.75rem; font-size:0.78rem; color: var(--text2);">Mathematics · Physics · Chemistry · Computer Science</div>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-degree">Secondary</div>
+        <div class="edu-uni">Ram Chandra Public School, Delhi</div>
+        <div class="edu-year">2015 – 2016</div>
+        <div style="margin-top:0.75rem; font-size:0.78rem; color: var(--text2);">Mathematics · Science · Social Science · English · Hindi </div>
+      </div>
+
+</section>
+<section>
+    <div class="section-inner">
+    <h2 class="section-title reveal">Certification 🏆</h2>
+    <div class="edu-cert-grid">
+
+      <div class="edu-card reveal" onclick="window.open('https://drive.google.com/file/d/14zpBIqSy26fRD4r-_2Hcr36WGCSjkhSK/view?usp=sharing')" style="cursor: pointer;">
         <div class="edu-icon">🤖</div>
         <div class="edu-degree">Fundamentals of AI</div>
         <div class="edu-uni">Wadhwani Foundation</div>
-        <div class="edu-year">Certification</div>
       </div>
 
-      <div class="edu-card reveal" style="animation-delay:0.25s">
-        <div class="edu-icon">⚡</div>
-        <div class="edu-degree">SQL Basic + Intermediate</div>
+      <div class="edu-card reveal" onclick="window.open('https://drive.google.com/file/d/1dkSFjvxJKUEsMfQAoZo8DVmPP7dzzvtA/view?usp=sharing')" style="cursor: pointer;">
+        <div class="edu-icon">🗄️</div>
+        <div class="edu-degree">SQL Intermediate</div>
         <div class="edu-uni">HackerRank</div>
-        <div class="edu-year">2× Certified</div>
       </div>
 
+      <div class="edu-card reveal" onclick="window.open('https://drive.google.com/file/d/1pZ5wWdvkPEvLe38XeFdwtSoB4DtRcx9n/view?usp=sharing')" style="cursor: pointer;">
+        <div class="edu-icon">🗄️</div>
+        <div class="edu-degree">SQL Basic</div>
+        <div class="edu-uni">HackerRank</div>
+      </div>
+
+      <div class="edu-card reveal" onclick="window.open('https://drive.google.com/file/d/11QsJfEQRSWDCcVEHpoSf6KkRfdClQnaj/view?usp=drive_link')" style="cursor: pointer;">
+        <div class="edu-icon">📊</div>
+        <div class="edu-degree">Learning Excel 2021</div>
+        <div class="edu-uni">LinkedIn Learning</div>
+      </div>
+
+      <div class="edu-card reveal" onclick="window.open('https://drive.google.com/file/d/1foQ3AeF7FD3dbiztXXMMdsZwgmq7yRDK/view?usp=sharing')" style="cursor: pointer;">
+        <div class="edu-icon">🐍</div>
+        <div class="edu-degree">Learning Python</div>
+        <div class="edu-uni">LinkedIn Learning</div>
+      </div>
+
+    </div>
     </div>
   </div>
 </section>
